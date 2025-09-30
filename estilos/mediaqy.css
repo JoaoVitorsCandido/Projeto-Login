@@ -27,7 +27,7 @@ Telas maiores min 992px
   #form {
     float: right;
     width: 50%;
-    margin-left: 50px;
+    margin-left: 15%;
   }
 }
 
@@ -52,9 +52,10 @@ Telas maiores min 992px
   
   #form {
     float: left;
-    width: 90%;
+    width: 45%;
     margin-left: 0px;
-    margin-top: none;
+    margin-top: 0px;
+    transform: translate(-89%, -50%);
   }
   #form h1 {
     text-align: left;
