@@ -20,16 +20,16 @@
       <div id="form">
         <h1>Login</h1>
         <p>Seja bem-vindo(a), faça login para ter acesso à sua conta.</p>
-        <form action="" method="post" accept-charset="utf-8">
+        <form action="" method="post" accept-charset="utf-8" autocomplete="on">
           
           <div id="conteineremail">
             <span id="user" class="material-symbols-outlined">account_circle</span>
-          <input type="email" name="email" id="iemail" required placeholder="Seu email" maxlength="30">
+          <input type="email" name="email" id="iemail" required placeholder="Seu email" maxlength="30" autocomplete="email">
           </div>
           
           <div id="conteinersenha">
             <span id="chave" class="material-symbols-outlined">passkey</span>
-          <input type="password" name="senha" id="isenha" required placeholder="Sua Senha" senhaminlength="8" maxlength="20">
+          <input type="password" name="senha" id="isenha" required placeholder="Sua Senha" senhaminlength="8" maxlength="20" autocomplete="current-password">
           <label for="isenha">Senha</label>
           </div>
           <input type="submit" value="Enviar">
